@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Code-Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b5c2d942a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div class="container">
+    <div class="left">
+        <label><i class="fa-brands fa-html5"></i> <b>HTML</b></label>
+        <textarea id="html-code" onkeyup="run()"></textarea>
+
+        <label><i class="fa-brands fa-css3"></i><b>CSS</b></label>
+        <textarea id="css-code" onkeyup="run()"></textarea>
+
+        <label><i class="fa-brands fa-js"></i><b>JavaScript</b></label>
+        <textarea id="JS-code" onkeyup="run()"></textarea>
+    </div>
+    <div class="right">
+        <label><i class="fa-solid fa-play"></i> OUTPUT</label>
+        <iframe id="OUTPUT"></iframe>
+    </div>
+</div>
+
+<script>
+    function run(){
+        let htmlCode = document.getElementById("html-code").value;
+        let cssCode = document.getElementById("css-code").value;
+        let jsCode = document.getElementById("JS-code").value;
+        let output = document.getElementById("OUTPUT").value;
+
+
+       OUTPUT.contentDocument.body.innerHTML = htmlCode  + "<style>" + cssCode +"</style>" ;
+       OUTPUT.contentWindow.eval(jsCode);
+    }
+</script>
+
+</body>
+</html>
