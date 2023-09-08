@@ -5,7 +5,7 @@ Script-Vista is a web-based code editor that allows you to write and edit code i
 
 ## How to use Script-Vista?
 
-To use Script-Vista, you can simply go to the link this link ->  https://script-vista.netlify.app/
+To use Script-Vista, you can simply go to this link ->  https://script-vista.netlify.app/
 
 ## Features of Script-Vista
 Script-Vista has several features that make it a great choice for developers. Some of the key features include:
