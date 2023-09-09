@@ -16,4 +16,4 @@ Script-Vista has several features that make it a great choice for developers. So
 
 •	Live preview of your code
 
-•	Multiple themes to choose from
+
