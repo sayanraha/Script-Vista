@@ -1,4 +1,8 @@
 # Script-Vista
+
+![Script-Vista](https://github.com/sayanraha/Script-Vista/assets/109590974/b6ea3861-bf21-4e53-8ee6-ba38dd6c6ca0)
+
+
 ## What is Script-Vista?
 
 Script-Vista is a web-based code editor that allows you to write and edit code in HTML, CSS, and JavaScript. It is a simple and intuitive application that you can use in your browser. The editor has several features, including syntax highlighting, autocomplete, and live preview, that make it a useful tool for developers.
